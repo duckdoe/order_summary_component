@@ -8,6 +8,37 @@
   --Blue-950: hsl(223, 47%, 23%);
 }
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img{
+  width: 100%;
+}
+
 body{
   font-family: 'Red Hat Display', sans-serif;
+  background-color: var(--Blue-100);
+}
+
+header img{
+  position: absolute;
+  top: 0; left: 0;
+}
+
+main{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 350px;
+  border-radius: 20px;
+  background-color: var(--Blue-50);
+  margin: 32px 0;
+}
+
+main .hero{
+  border-radius: 20px 20px 0 0;
 }
