@@ -40,11 +40,18 @@
               <p>$59.99/year</p>
             </span>
           </div>
-          <a href="#">Change</a>
+          <a>Change</a>
         </div>
         <button class="proceed">Proceed to Payment</button>
         <button class="cancel">Cancel Order</button>
       </section>
     </main>
+    <script>
+      document
+        .querySelector("#plan_details a")
+        .addEventListener("click", (e) => {
+          e.preventDefault();
+        });
+    </script>
   </body>
 </html>

@@ -96,12 +96,18 @@ section p{
 .info span p{
   font-size: .975rem;
   text-align: left;
+  margin: 0;
 }
 
 #plan_details a{
   color: var(--Blue-700);
   font-weight: 900;
   font-size: 14px;
+}
+
+#plan_details a:hover {
+  text-decoration: none;
+  color: var();
 }
 
 button{
@@ -133,4 +139,15 @@ button{
   font-size: 1rem;
   margin-top: 20px;
   background-color: transparent;
+}
+
+.cancel:hover{
+  color: var(--Blue-950);
+}
+
+@media (width > 768px){
+  main{
+    width: 400px;
+    margin: 0;
+  }
 }
