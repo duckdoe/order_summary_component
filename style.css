@@ -21,6 +21,7 @@ img {
 body {
   font-family: "Red Hat Display", sans-serif;
   background-color: var(--Blue-100);
+  font-size: 1rem;
 }
 
 header img {
@@ -47,12 +48,13 @@ main .hero {
 section{
   text-align: center;
   padding: 0 40px;
+  margin-bottom: 30px;
 }
 
 section h1{
   color: var(--Blue-950);
   font-weight: 900;
-  margin: 30px;
+  margin: 30px 0;
 }
 
 section p{
@@ -107,3 +109,28 @@ button{
   cursor: pointer;
 }
 
+.proceed{
+  background-color: var(--Blue-700);
+  color: hsl(0, 0%, 100%);
+  font-weight: 900;
+  padding: 20px 0;
+  outline: none;
+  border: none;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 1rem;
+  border-radius: 20px;
+  margin-top: 20px;
+  box-shadow: 0px 20px 20px hsl(225, 100%, 94%);
+}
+
+.cancel{
+  border: none;
+  outline: none;
+  padding: 20px 0;
+  font-weight: 700;
+  color: var(--Gray-600);
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 1rem;
+  margin-top: 20px;
+  background-color: transparent;
+}
