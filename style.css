@@ -46,24 +46,30 @@ main .hero {
 
 section{
   text-align: center;
-  padding: 0 45px;
+  padding: 0 40px;
 }
 
 section h1{
   color: var(--Blue-950);
   font-weight: 900;
+  margin: 30px;
 }
 
 section p{
   line-height: 24px;
   color: var(--Gray-600);
   font-weight: 500;
+  margin-top: 20px;
 }
 
 #plan_details{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 30px;
+  padding: 10px;
+  background-color: var(--Blue-50);
+  border-radius: 10px;
 }
 
 .info{
@@ -78,5 +84,26 @@ section p{
 
 .info span{
   width: max-content;
+}
+
+.info span strong{
+  color: var(--Blue-950);
+  font-weight: 900;
+}
+
+.info span p{
+  font-size: .975rem;
+  text-align: left;
+}
+
+#plan_details a{
+  color: var(--Blue-700);
+  font-weight: 900;
+  font-size: 14px;
+}
+
+button{
+  width: 100%;
+  cursor: pointer;
 }
 
