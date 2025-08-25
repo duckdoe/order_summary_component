@@ -54,7 +54,7 @@ section{
 section h1{
   color: var(--Blue-950);
   font-weight: 900;
-  margin: 30px 0;
+  margin-top: 30px;
 }
 
 section p{
@@ -103,11 +103,14 @@ section p{
   color: var(--Blue-700);
   font-weight: 900;
   font-size: 14px;
+  transition: .2s;
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 #plan_details a:hover {
   text-decoration: none;
-  color: var();
+  color: var(--Gray-600);
 }
 
 button{
@@ -127,6 +130,12 @@ button{
   border-radius: 20px;
   margin-top: 20px;
   box-shadow: 0px 20px 20px hsl(225, 100%, 94%);
+  cursor: pointer;
+  transition: .2s;
+}
+
+.proceed:hover{
+  opacity: .65;
 }
 
 .cancel{
@@ -137,8 +146,9 @@ button{
   color: var(--Gray-600);
   font-family: 'Red Hat Display', sans-serif;
   font-size: 1rem;
-  margin-top: 20px;
   background-color: transparent;
+  cursor: pointer;
+  transition: .2s;
 }
 
 .cancel:hover{
